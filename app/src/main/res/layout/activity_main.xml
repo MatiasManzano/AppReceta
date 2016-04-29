@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.matias.apprecetas.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imagenMain"
+
+     />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/linearRecetas">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/background_dark"
+            android:text="Recetas"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/linearQueCocino">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/background_dark"
+            android:text="Qué cocino?"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/linearCompartir">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/background_dark"
+            android:text="Compartí tu receta"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/linearInfo">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/background_dark"
+            android:text="Info"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
